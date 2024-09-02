@@ -1,0 +1,180 @@
+qq
+qq
+</>
+Match Words
+<script src="Dictionary_Mc.js"></script>
+<script src="js.js"></script>
+<style>
+    button {
+        font-weight: bolder;
+        width: 30px;
+    }
+
+    #CheckAnswers {
+        visibility: hidden;
+    }
+</style>
+A new test in level:<br><br>
+<button onclick="showItems('1')">1</button>&nbsp;●&nbsp;
+<button onclick="showItems('2')">2</button>&nbsp;●&nbsp;
+<button onclick="showItems('3')">3</button>&nbsp;●&nbsp;
+<button onclick="showItems('4')">4</button>&nbsp;●&nbsp;
+<button onclick="showItems('5')">5</button>&nbsp;●&nbsp;
+<button onclick="showItems('6')">6</button>
+
+<br><br>
+<div style="font-size: smaller;">Click on buttons to match words with their defenition</div>
+<br>
+<table>
+    <th>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    </th>
+    <tr>
+        <td>
+            <button onclick="sq(0)">1</button>
+        </td>
+        <td id="q0">
+            -
+        </td>
+        <td>
+            <button onclick="sd(0)" id="g0">▬</button>
+        </td>
+        <td id="d0">
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="sq(1)">2</button>
+        </td>
+        <td id="q1">
+            -
+        </td>
+        <td>
+            <button onclick="sd(1)" id="g1">▬</button>
+        </td>
+        <td id="d1">
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="sq(2)">3</button>
+        </td>
+        <td id="q2">
+            -
+        </td>
+        <td>
+            <button onclick="sd(2)" id="g2">▬</button>
+        </td>
+        <td id="d2">
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="sq(3)">4</button>
+        </td>
+        <td id="q3">
+            -
+        </td>
+        <td>
+            <button onclick="sd(3)" id="g3">▬</button>
+        </td>
+        <td id="d3">
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="sq(4)">5</button>
+        </td>
+        <td id="q4">
+            -
+        </td>
+        <td>
+            <button onclick="sd(4)" id="g4">▬</button>
+        </td>
+        <td id="d4">
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="sq(5)">6</button>
+        </td>
+        <td id="q5">
+            -
+        </td>
+        <td>
+            <button onclick="sd(5)" id="g5">▬</button>
+        </td>
+        <td id="d5">
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="sq(6)">7</button>
+        </td>
+        <td id="q6">
+            -
+        </td>
+        <td>
+            <button onclick="sd(6)" id="g6">▬</button>
+        </td>
+        <td id="d6">
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="sq(7)">8</button>
+        </td>
+        <td id="q7">
+            -
+        </td>
+        <td>
+            <button onclick="sd(7)" id="g7">▬</button>
+        </td>
+        <td id="d7">
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="sq(8)">9</button>
+        </td>
+        <td id="q8">
+            -
+        </td>
+        <td>
+            <button onclick="sd(8)" id="g8">▬</button>
+        </td>
+        <td id="d8">
+            -
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="sq(9)">10</button>
+        </td>
+        <td id="q9">
+            -
+        </td>
+        <td>
+            <button onclick="sd(9)" id="g9">▬</button>
+        </td>
+        <td id="d9">
+            -
+        </td>
+    </tr>
+</table>
+<br>
+<div id="CheckAnswers">
+    <button onclick="checkIt()" style="width:120px;">Check Answers</button>
+</div>
+</>
